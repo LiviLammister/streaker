@@ -2,7 +2,7 @@
 
 const { expect } = require('chai')
 const db = require('../db')
-const CalDate = require('./date')
+const CalDate = require('./cal-date')
 
 describe('Date model', () => {
   beforeEach(() => {

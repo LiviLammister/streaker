@@ -2,9 +2,8 @@
 
 const Sequelize = require('sequelize')
 const moment = require('moment')
-const db = require('../db')
-
 moment().format()
+const db = require('../db')
 
 const CalDate = db.define('caldate', {
   fullDate: {
