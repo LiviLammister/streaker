@@ -35,6 +35,12 @@ const CalDate = db.define('caldate', {
     get () {
       return moment(this.getDataValue('fullDate')).date()
     }
+  },
+  day: {
+    type: Sequelize.VIRTUAL,
+    get () {
+      return moment(this.getDataValue('fullDate')).day()
+    }
   }
 })
 
