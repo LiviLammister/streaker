@@ -9,7 +9,7 @@ describe('Date model', () => {
     return db.sync({force: true})
   })
 
-  describe('Creating with default values', () => {
+  describe('Default value tests', () => {
     let testDate
     let referenceDate = new Date()
 
@@ -38,7 +38,6 @@ describe('Date model', () => {
 
   }) // end 'Creating with describe default values'
 
-  describe('Creating with YYYY-MM-DD date format', () => {
-    
-  }) // end 'Creating with YYYY-MM-DD date format'
+  // describe('Creating with YYYY-MM-DD date format', () => {
+  // }) // end 'Creating with YYYY-MM-DD date format'
 }) // end 'Describe date model'
